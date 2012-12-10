@@ -1,0 +1,12 @@
+[submodule "submodules/chai-jquery"]
+	path = submodules/chai-jquery
+	url = git://github.com/jfirebaugh/chai-jquery.git
+[submodule "submodules/chai"]
+	path = submodules/chai
+	url = git://github.com/chaijs/chai.git
+[submodule "submodules/mocha"]
+	path = submodules/mocha
+	url = git://github.com/visionmedia/mocha.git
+[submodule "submodules/sinon"]
+	path = submodules/sinon
+	url = git://github.com/cjohansen/Sinon.JS.git
