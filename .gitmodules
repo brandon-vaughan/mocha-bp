@@ -1,8 +1,0 @@
-[submodule "submodules/chai"]
-	path = submodules/chai
-	url = git://github.com/chaijs/chai.git
-  ignore = dirty
-[submodule "submodules/chai-jquery"]
-  path = submodules/chai-jquery
-  url = git://github.com/chaijs/chai-jquery.git
-  ignore = dirty
