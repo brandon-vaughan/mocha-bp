@@ -4,22 +4,24 @@
   <meta charset="utf-8">
   <title>Mocha Tests</title>
 
-  <link rel="stylesheet" href="/path/to/mocha.css" />
+  <link rel="stylesheet" href="submodules/mocha/mocha.css" />
 
 </head>
 <body>
   <div id="mocha"></div>
   <div id="test"></div>
 
-  <script src="/path/to/chai.js"></script>
-  <script src="/path/to/mocha.js"></script>
-  <script src="/path/to/sinon.js"></script>
+  <script src="submodules/chai/chai.js"></script>
+  <script src="submodules/chai-jquery/chai-jquery.js"></script>
+  <script src="submodules/mocha/mocha.js"></script>
+  <script src="submodules/sinon/sinon.js"></script>
 
   <!-- for simple script use:
   <script src="/path/to/example.js"></script>
   <script src="../tests/example.js"></script>
   -->
 
+  <!-- for require point main to live config and then route to test/config -->
   <script src="/path/to/require.js" data-main="/path/to/config"></script>
 
 </body>
