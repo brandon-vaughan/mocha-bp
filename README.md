@@ -30,9 +30,9 @@ provides a set of jQuery-specific assertions.
 
 ```shell
 ## First clone down the repo into your project in a test folder
-git clone git@github.com:brandon-vaughan/mocha-bp.git test
+git clone git@github.com:brandon-vaughan/mocha-bp.git --recursive test
 
-## Second install all submodules
+## If already installed updated submodules
 git submodule update --init --recursive
 ```
 
