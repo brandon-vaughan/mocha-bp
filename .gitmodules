@@ -1,0 +1,6 @@
+[submodule "submodules/chai-jquery"]
+	path = submodules/chai-jquery
+	url = git://github.com/chaijs/chai-jquery.git
+[submodule "submodules/chai"]
+	path = submodules/chai
+	url = git://github.com/chaijs/chai.git
